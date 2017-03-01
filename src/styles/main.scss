@@ -3,7 +3,7 @@
 }
 
 body{
-	background: limegreen;
+	background: white;
 }
 
 $txt-color: maroon;
@@ -13,3 +13,26 @@ h2{
 	border-bottom: 4px solid $txt-color;
 }
 
+#app-container {
+	background-color: white;
+}
+
+.profile-page{
+	font-size: 0;
+}
+
+.profile-page >* {
+	display: inline-block;
+	vertical-align: top;
+	font-size: medium;
+}
+
+.profile-thumb{
+	background-color: #C8F7C5;
+  padding-top: 6px;
+  padding-left: 10px;
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
